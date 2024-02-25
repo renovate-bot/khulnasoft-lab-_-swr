@@ -130,7 +130,7 @@
     "@arethetypeswrong/cli": "^0.7.0",
     "@playwright/test": "^1.34.3",
     "@swc/core": "^1.3.62",
-    "@swc/jest": "0.2.26",
+    "@swc/jest": "0.2.36",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.2.1",
     "@type-challenges/utils": "0.1.1",
