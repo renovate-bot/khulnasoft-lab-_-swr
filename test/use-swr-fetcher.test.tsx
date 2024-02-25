@@ -4,7 +4,7 @@ import useSWR from 'swr'
 import { createKey, renderWithConfig, nextTick } from './utils'
 
 describe('useSWR - fetcher', () => {
-  // https://github.com/vercel/swr/issues/1131
+  // https://github.com/khulnasoft/swr/issues/1131
   it('should use the latest fetcher reference', async () => {
     const key = createKey()
     let fetcher = () => 'foo'

@@ -602,7 +602,7 @@ describe('useSWR - local mutation', () => {
     }
   })
 
-  // https://github.com/vercel/swr/pull/1003
+  // https://github.com/khulnasoft/swr/pull/1003
   it.skip('should not dedupe synchronous mutations', async () => {
     const mutationRecivedValues = []
     const renderRecivedValues = []
@@ -914,7 +914,7 @@ describe('useSWR - local mutation', () => {
     await screen.findByText('data: undefined')
   })
 
-  // https://github.com/vercel/swr/issues/482
+  // https://github.com/khulnasoft/swr/issues/482
   it('should be able to deduplicate multiple mutate calls', async () => {
     const key = createKey()
     const loggedData = []

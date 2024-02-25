@@ -86,7 +86,7 @@ export const initCache = <Data = any>(
           // fired after immediate JavaScript executions, which can be
           // React's state updates.
           // This avoids some unnecessary revalidations such as
-          // https://github.com/vercel/swr/issues/1680.
+          // https://github.com/khulnasoft/swr/issues/1680.
           const releaseFocus = opts.initFocus(
             setTimeout.bind(
               UNDEFINED,

@@ -195,7 +195,7 @@ describe('useSWR - keep previous data', () => {
     ])
   })
 
-  // https://github.com/vercel/swr/issues/2128
+  // https://github.com/khulnasoft/swr/issues/2128
   it('should re-render when returned data and fallbackData is the same and keepPreviousData is enabled', async () => {
     const fallbackData = 'initial'
     const fetcher = k => createResponse(k, { delay: 50 })

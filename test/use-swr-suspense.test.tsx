@@ -174,7 +174,7 @@ describe('useSWR - suspense', () => {
   })
 
   it('should pause when key changes', async () => {
-    // fixes https://github.com/vercel/swr/issues/57
+    // fixes https://github.com/khulnasoft/swr/issues/57
     // initialKey' -> undefined -> updatedKey
     const initialKey = createKey()
     const updatedKey = createKey()
@@ -212,7 +212,7 @@ describe('useSWR - suspense', () => {
   })
 
   it('should render correctly when key changes (but with same response data)', async () => {
-    // https://github.com/vercel/swr/issues/1056
+    // https://github.com/khulnasoft/swr/issues/1056
     const renderedResults = []
     const baseKey = createKey()
     function Section() {
@@ -246,7 +246,7 @@ describe('useSWR - suspense', () => {
   })
 
   it('should render correctly when key changes (from null to valid key)', async () => {
-    // https://github.com/vercel/swr/issues/1836
+    // https://github.com/khulnasoft/swr/issues/1836
     const renderedResults = []
     const baseKey = createKey()
     let setData: any = () => {}

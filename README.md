@@ -11,7 +11,7 @@
   <a aria-label="Package size" href="https://bundlephobia.com/result?p=swr">
     <img alt="" src="https://badgen.net/bundlephobia/minzip/swr">
   </a>
-  <a aria-label="License" href="https://github.com/vercel/swr/blob/main/LICENSE">
+  <a aria-label="License" href="https://github.com/khulnasoft/swr/blob/main/LICENSE">
     <img alt="" src="https://badgen.net/npm/license/swr">
   </a>
 </p>
@@ -90,7 +90,7 @@ This library is created by the team behind [Next.js](https://nextjs.org), with c
 - Joe Haddad ([@timer150](https://twitter.com/timer150)) - [Vercel](https://vercel.com)
 - Paco Coursey ([@pacocoursey](https://twitter.com/pacocoursey)) - [Vercel](https://vercel.com)
 
-[Contributors](https://github.com/vercel/swr/graphs/contributors)
+[Contributors](https://github.com/khulnasoft/swr/graphs/contributors)
 
 Thanks to Ryan Chen for providing the awesome `swr` npm package name!
 

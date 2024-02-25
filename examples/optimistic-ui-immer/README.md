@@ -4,14 +4,14 @@
 
 Deploy your own SWR project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/vercel/swr/tree/main/examples/optimistic-ui-immer)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/khulnasoft/swr/tree/main/examples/optimistic-ui-immer)
 
 ## How to Use
 
 Download the example:
 
 ```bash
-curl https://codeload.github.com/vercel/swr/tar.gz/main | tar -xz --strip=2 swr-main/examples/optimistic-ui-immer
+curl https://codeload.github.com/khulnasoft/swr/tar.gz/main | tar -xz --strip=2 swr-main/examples/optimistic-ui-immer
 cd optimistic-ui-immer
 ```
 

@@ -4,14 +4,14 @@
 
 Deploy your own SWR project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/vercel/swr/tree/main/examples/local-state-sharing)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/khulnasoft/swr/tree/main/examples/local-state-sharing)
 
 ## How to Use
 
 Download the example:
 
 ```bash
-curl https://codeload.github.com/vercel/swr/tar.gz/main | tar -xz --strip=2 swr-main/examples/local-state-sharing
+curl https://codeload.github.com/khulnasoft/swr/tar.gz/main | tar -xz --strip=2 swr-main/examples/local-state-sharing
 cd local-state-sharing
 ```
 

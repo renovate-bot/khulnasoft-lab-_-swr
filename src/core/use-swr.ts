@@ -219,7 +219,7 @@ export const useSWRHandler = <Data = any, Error = any>(
           // However, since the `isEqual` function only compares selected fields,
           // the values of the unselected fields might be changed. That's
           // simply because we didn't track them.
-          // To support the case in https://github.com/vercel/swr/pull/2576,
+          // To support the case in https://github.com/khulnasoft/swr/pull/2576,
           // we need to update these fields in the `memorizedSnapshot` too
           // with direct mutations to ensure the snapshot is always up-to-date
           // even for the unselected fields, but only trigger re-renders when
@@ -695,7 +695,7 @@ export const useSWRHandler = <Data = any, Error = any>(
   if (suspense && isUndefined(data) && key) {
     // SWR should throw when trying to use Suspense on the server with React 18,
     // without providing any initial data. See:
-    // https://github.com/vercel/swr/issues/1832
+    // https://github.com/khulnasoft/swr/issues/1832
     if (!IS_REACT_LEGACY && IS_SERVER) {
       throw new Error('Fallback data is required when using suspense in SSR.')
     }

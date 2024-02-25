@@ -952,7 +952,7 @@ describe('useSWRInfinite', () => {
     expect(_setSize()).toBeInstanceOf(Promise)
   })
 
-  // https://github.com/vercel/swr/issues/908
+  // https://github.com/khulnasoft/swr/issues/908
   it('should revalidate first page after mutating', async () => {
     const key = createKey()
     let v = 'old'
@@ -1158,7 +1158,7 @@ describe('useSWRInfinite', () => {
     ).toBeTruthy()
   })
 
-  // https://github.com/vercel/swr/issues/1776
+  // https://github.com/khulnasoft/swr/issues/1776
   it('should update the getKey reference with the suspense mode', async () => {
     const keyA = 'keyA' + createKey()
     const keyB = 'keyB' + createKey()
@@ -1240,7 +1240,7 @@ describe('useSWRInfinite', () => {
     await screen.findByText('data: 2')
   })
 
-  // https://github.com/vercel/swr/issues/1899
+  // https://github.com/khulnasoft/swr/issues/1899
   it('should revalidate the resource with bound mutate when options is of Object type ', async () => {
     let t = 0
     const key = createKey()
@@ -1273,7 +1273,7 @@ describe('useSWRInfinite', () => {
     expect(logger).toEqual([undefined, ['foo-0'], ['foo-1']])
   })
 
-  // https://github.com/vercel/swr/issues/1899
+  // https://github.com/khulnasoft/swr/issues/1899
   it('should not revalidate the resource with bound mutate when options is of Object type', async () => {
     let t = 0
     const key = createKey()

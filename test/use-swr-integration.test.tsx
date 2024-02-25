@@ -400,7 +400,7 @@ describe('useSWR', () => {
     // a request is still in flight
     await act(() => sleep(10))
     // while validating, SWR returns the fallbackData
-    // https://github.com/vercel/swr/pull/961/files#r588928241
+    // https://github.com/khulnasoft/swr/pull/961/files#r588928241
     screen.getByText('hello, Initial')
 
     // render with data the fetcher returns
@@ -593,7 +593,7 @@ describe('useSWR', () => {
     `)
   })
 
-  // Test for https://github.com/vercel/swr/issues/2446
+  // Test for https://github.com/khulnasoft/swr/issues/2446
   it('should return latest data synchronously after accessing getter', async () => {
     const fetcher = async () => {
       await sleep(10)
