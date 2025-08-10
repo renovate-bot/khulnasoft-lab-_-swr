@@ -9,7 +9,7 @@ importers:
         version: 0.0.1
       use-sync-external-store:
         specifier: 1.3.0-canary-98b8359f6-20240223
-        version: 1.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223)
+        version: 1.3.0-canary-98b8359f6-20240223(react@18.3.1)
     devDependencies:
       '@arethetypeswrong/cli':
         specifier: ^0.7.0
@@ -28,7 +28,7 @@ importers:
         version: 5.16.5
       '@testing-library/react':
         specifier: ^14.2.1
-        version: 14.2.1(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.0-canary-98b8359f6-20240223)
+        version: 14.2.1(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.1)
       '@type-challenges/utils':
         specifier: 0.1.1
         version: 0.1.1
@@ -85,19 +85,19 @@ importers:
         version: 13.2.2
       next:
         specifier: 14.1.0
-        version: 14.1.0(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.0-canary-98b8359f6-20240223)
+        version: 14.1.0(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.1)
       prettier:
         specifier: 2.8.8
         version: 2.8.8
       react:
-        specifier: 18.3.0-canary-98b8359f6-20240223
-        version: 18.3.0-canary-98b8359f6-20240223
+        specifier: 18.3.1
+        version: 18.3.1
       react-dom:
         specifier: 18.3.0-canary-98b8359f6-20240223
-        version: 18.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223)
+        version: 18.3.0-canary-98b8359f6-20240223(react@18.3.1)
       react-error-boundary:
         specifier: ^4.0.9
-        version: 4.0.9(react@18.3.0-canary-98b8359f6-20240223)
+        version: 4.0.9(react@18.3.1)
       rimraf:
         specifier: 5.0.1
         version: 5.0.1
@@ -1512,7 +1512,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@14.2.1(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.0-canary-98b8359f6-20240223):
+  /@testing-library/react@14.2.1(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.1):
     resolution: {integrity: sha512-sGdjws32ai5TLerhvzThYFbpnF9XtL65Cjf+gB0Dhr29BGqK+mAeN7SURSdu+eqgET4ANcWoC7FQpkaiGvBr+A==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1522,8 +1522,8 @@ packages:
       '@babel/runtime': 7.18.9
       '@testing-library/dom': 9.2.0
       '@types/react-dom': 18.0.6
-      react: 18.3.0-canary-98b8359f6-20240223
-      react-dom: 18.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223)
+      react: 18.3.1
+      react-dom: 18.3.0-canary-98b8359f6-20240223(react@18.3.1)
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -4332,7 +4332,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@14.1.0(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.0-canary-98b8359f6-20240223):
+  /next@14.1.0(react-dom@18.3.0-canary-98b8359f6-20240223)(react@18.3.1):
     resolution: {integrity: sha512-wlzrsbfeSU48YQBjZhDzOwhWhGsy+uQycR8bHAOt1LY1bn3zZEcDyHQOEoN3aWzQ8LHCAJ1nqrWCc9XF2+O45Q==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -4353,9 +4353,9 @@ packages:
       caniuse-lite: 1.0.30001587
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 18.3.0-canary-98b8359f6-20240223
-      react-dom: 18.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223)
-      styled-jsx: 5.1.1(react@18.3.0-canary-98b8359f6-20240223)
+      react: 18.3.1
+      react-dom: 18.3.0-canary-98b8359f6-20240223(react@18.3.1)
+      styled-jsx: 5.1.1(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.1.0
       '@next/swc-darwin-x64': 14.1.0
@@ -4773,23 +4773,23 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@18.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223):
+  /react-dom@18.3.0-canary-98b8359f6-20240223(react@18.3.1):
     resolution: {integrity: sha512-tIMWqsdyooCEvDYvvUIfqsc6oiYQDdpvspVdBIFo7TaQLqY23CNtHYGQzwwfiuS6S/FDPLr7nGKyAS3spVrTKg==}
     peerDependencies:
       react: 18.3.0-canary-98b8359f6-20240223
     dependencies:
       loose-envify: 1.4.0
-      react: 18.3.0-canary-98b8359f6-20240223
+      react: 18.3.1
       scheduler: 0.24.0-canary-98b8359f6-20240223
     dev: true
 
-  /react-error-boundary@4.0.9(react@18.3.0-canary-98b8359f6-20240223):
+  /react-error-boundary@4.0.9(react@18.3.1):
     resolution: {integrity: sha512-f6DcHVdTDZmc9ixmRmuLDZpkdghYR/HKZdUzMLHD58s4cR2C4R6y4ktYztCosM6pyeK4/C8IofwqxgID25W6kw==}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
       '@babel/runtime': 7.18.9
-      react: 18.3.0-canary-98b8359f6-20240223
+      react: 18.3.1
     dev: true
 
   /react-is@16.13.1:
@@ -4804,8 +4804,8 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
-  /react@18.3.0-canary-98b8359f6-20240223:
-    resolution: {integrity: sha512-admYkI0KIWJ6tnVb2Mvtnpb+t2GnKknp+AXZfSxrDUVNy28JBixA0W/LvvJ/7+oWaP5IHfQFJnUH6GYRPzabjQ==}
+  /react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -5255,7 +5255,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx@5.1.1(react@18.3.0-canary-98b8359f6-20240223):
+  /styled-jsx@5.1.1(react@18.3.1):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -5269,7 +5269,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 18.3.0-canary-98b8359f6-20240223
+      react: 18.3.1
     dev: true
 
   /supports-color@5.5.0:
@@ -5460,12 +5460,12 @@ packages:
       requires-port: 1.0.0
     dev: true
 
-  /use-sync-external-store@1.3.0-canary-98b8359f6-20240223(react@18.3.0-canary-98b8359f6-20240223):
+  /use-sync-external-store@1.3.0-canary-98b8359f6-20240223(react@18.3.1):
     resolution: {integrity: sha512-FjG3xv9LUR7jQeGL/QWTVtOiZJIq4gv6updGiSm9w/UYj9P0RlSpXRy1aKlB68CHqK+M78kHF9+ZLpUjXJpwqA==}
     peerDependencies:
       react: 18.3.0-canary-98b8359f6-20240223
     dependencies:
-      react: 18.3.0-canary-98b8359f6-20240223
+      react: 18.3.1
     dev: false
 
   /v8-to-istanbul@9.0.1:
